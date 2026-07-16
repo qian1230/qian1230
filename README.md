@@ -1,15 +1,22 @@
-# qian1230.github.io
-Hi 👋 I'm Tianhe Qian
+<p align="center">
 
-Master's Student @ Beijing University of Posts and Telecommunications
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Tianhe%20Qian&fontSize=40&fontAlignY=35&animation=twinkling"/>
 
-Research Interests
+</p>
 
-• Audio-Visual Speech Recognition (AVSR)
-• Multimodal Learning
-• Speech Foundation Models
-• Deep Learning
-• Large Language Models
+<h2 align="center">
+Researching AI that understands speech through both sound and vision.
+</h2>
 
-"Researching intelligent systems that understand speech through both sound and vision."
+<p align="center">
+
+<img src="https://img.shields.io/badge/Audio--Visual%20Speech%20Recognition-blue?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Multimodal%20Learning-purple?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Foundation%20Models-green?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Deep%20Learning-red?style=for-the-badge"/>
+
+</p>
 
