@@ -5,7 +5,7 @@
 </p>
 
 <h2 align="center">
-Researching AI that understands speech through both sound and vision.
+Master's Student @ Beijing University of Posts and Telecommunications
 </h2>
 
 <p align="center">
