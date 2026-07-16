@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tianhe Qian | BUPT Master</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            max-width: 700px;
+            margin: 80px auto;
+            padding: 0 30px;
+            color: #222;
+            background-color: #fdfdfd;
+            line-height: 1.7;
+            /* 页面渐入动画 */
+            animation: fadeIn 0.8s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            background: linear-gradient(90deg, #1d4ed8, #4f46e5);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .school {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 32px;
+        }
+        h2 {
+            font-size: 1.3rem;
+            margin: 36px 0 12px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 6px;
+            transition: all 0.3s ease;
+        }
+        h2:hover {
+            border-color: #2563eb;
+            padding-left: 4px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 12px;
+        }
+        li {
+            margin: 10px 0;
+            font-size: 1.05rem;
+            transition: all 0.25s ease;
+        }
+        li::before {
+            content: "•";
+            color: #2563eb;
+            font-weight: bold;
+            display: inline-block;
+            width: 18px;
+            transition: color 0.25s;
+        }
+        li:hover {
+            color: #2563eb;
+            padding-left: 6px;
+        }
+        li:hover::before {
+            color: #4f46e5;
+        }
+        .desc {
+            margin-top: 24px;
+            font-style: italic;
+            color: #444;
+            font-size: 1.1rem;
+            border-left: 3px solid #cbd5e1;
+            padding-left: 14px;
+            transition: border-color 0.3s;
+        }
+        .desc:hover {
+            border-left-color: #2563eb;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hi 👋 I'm Tianhe Qian</h1>
+    <div class="school">Master's Student @ Beijing University of Posts and Telecommunications</div>
+
+    <h2>Research Interests</h2>
+    <ul>
+        <li>Audio-Visual Speech Recognition (AVSR)</li>
+        <li>Multimodal Learning</li>
+        <li>Speech Foundation Models</li>
+        <li>Deep Learning</li>
+        <li>Large Language Models</li>
+    </ul>
+
+    <p class="desc">"Researching intelligent systems that understand speech through both sound and vision."</p>
+</body>
+</html>
